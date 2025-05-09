@@ -1,0 +1,68 @@
+
+.projects-page {
+    
+    background-color: rgb(13, 13, 13);
+    height: 1000px;
+    margin-bottom: 0;
+}
+
+.projects-text {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    color: rgba(5, 108, 242, 0.9);
+    letter-spacing: 2px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 350px);
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 0;
+}
+
+.project-card {
+    background-color: transparent;
+    border: 3px rgba(5, 108, 242, 0.9) solid;
+    position: relative;
+    overflow: hidden;   
+    border-radius: 8px;
+}
+
+.testeimg  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(5, 108, 242);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+  text-align: center;
+  padding: 20px;
+}
+
+.project-card:hover .card-content1 {
+    transform: translateY(0);
+}
+
+.text-card1 {
+    color: white;
+    padding: 30px 10px;
+    word-break: break-all;
+}

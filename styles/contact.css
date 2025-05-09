@@ -1,0 +1,46 @@
+.contact {
+    background-color: #121212;
+    height: 600px;
+}
+
+
+
+.contact-content h1 {
+    padding: 25px 0;
+    font-size: 50px;
+    color: rgb(5, 108, 242);
+    text-align: center;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 0;
+    width: 30%;
+    justify-content: center;
+    margin: auto;
+}
+
+.enviar {
+    margin-top: 10px;
+    background-color: rgb(13, 13, 13);
+    padding: 10px 10px;
+    border: 2px rgb(5, 108, 242) solid;
+    color: white;
+    cursor: pointer;
+}
+
+.contact input {
+    background-color: rgb(13, 13, 13);
+    padding: 10px 10px;
+    border: 2px rgb(5, 108, 242) solid;
+    color: white;
+}
+
+.contact textarea {
+    background-color: rgb(13, 13, 13);
+    padding: 10px 10px;
+    border: 2px rgb(5, 108, 242) solid;
+    color: white;
+}

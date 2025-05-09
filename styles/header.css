@@ -1,0 +1,43 @@
+
+
+.header {
+    background-color: #121212;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.refa_dev {
+    width: 130px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.navlist {
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navlist li a:hover {
+    color: rgb(5, 108, 242);
+    transition: color 0.8s ;
+}
+
+.homenav {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.aboutmenav{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+

@@ -1,0 +1,129 @@
+.home_page a:active {
+    color: white;
+}
+
+.home_page a:visited {
+    color: white;
+}
+
+.home_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 110px;
+}
+
+.home_titles {
+    margin: 0;
+}
+
+.title {
+    margin-left: 320px;
+    font-size: 55px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    margin-left: 320px;
+    font-size: 35px;
+    margin-top: 0;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.engineer_span {
+    color: rgb(5, 108, 242);
+}
+
+.home_icons {
+    margin-left: 320px;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.linkedin_logo {
+    font-size: 30px;
+    background-color: #1d1d1d;
+    color: white;
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.linkedin_logo:hover {
+    color: rgb(5, 108, 242);
+    background-color: rgb(37, 37, 37);
+    transition: color 0.2s;
+    transform: scale(0.9);
+}
+
+.github_logo {
+    font-size: 30px;
+    background-color: #1d1d1d;
+    color: white;
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.github_logo:hover {
+    color: rgb(5, 108, 242);
+    background-color: rgb(37, 37, 37);
+    transition: color 0.2s;
+    transform: scale(0.9);
+}
+
+.instagram_logo {
+    font-size: 30px;
+    background-color: #1d1d1d;
+    color: white;
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instagram_logo:hover {
+    color: rgb(5, 108, 242);
+    background-color: rgb(37, 37, 37);
+    transition: color 0.2s;
+    transform: scale(0.9);
+}
+
+.javalogo {
+    margin-right: 320px;
+    width: 350px;
+    animation: motion 6s ease-in infinite;
+    filter: drop-shadow(0 0 8px hsl(224, 80%, 40%)) drop-shadow(0 0 20px hsl(224, 80%, 40%)) drop-shadow(0 0 40px hsl(224, 80%, 40%))
+}
+
+@keyframes motion {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.05);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
